@@ -1,0 +1,1 @@
+ssh root@mjawili.com "cd ~/mjawili && git pull && launch-http"
