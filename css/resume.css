@@ -1,0 +1,12 @@
+html {
+	background: #69C269;
+}
+body {
+	background: #fff;
+	-webkit-box-shadow: 1px 1px 5px 2px rgba(50, 50, 50, 0.5);
+    box-shadow: 1px 1px 5px 2px rgba(50, 50, 50, 0.5);
+	font-family: 'Open Sans';
+	margin: 3em auto;
+	padding: 3em 5em;
+	width: 45em;
+}
