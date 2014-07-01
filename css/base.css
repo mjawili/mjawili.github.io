@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    background: url(../img/bg_aggie.jpg) no-repeat center center fixed;
+}
+body {
+    background-color: rgba(256, 256, 256, 0.8);
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: bold;
+    margin: 1em auto;
+    max-width: 600px;
+    padding: 1em;
+    width: 80%;
+}
+a, a:active, a:focus, a:hover, a:visited {
+    color: #239200;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    html {
+        background: url(../img/bg_aggie.jpg) no-repeat 20% center fixed;
+    }
+}
