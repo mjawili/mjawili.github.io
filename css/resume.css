@@ -24,24 +24,25 @@ header {
 h1 {
     font-size: 2.4em;
     font-weight: bold;
-    margin-bottom: 0.5em;
+    line-height: normal;    
 }
 h2 {
     font-size: 1.5em;
     font-weight: bold;
-    margin: 1.5em 0 0.3em;
+    margin-top: 1.5em;
 }
 h3 {
     font-weight: bold;
-    margin: 1em 0 0.3em;
+    margin-top: 1em;
 }
 h4 {
     font-style: italic;
 }
 header ul {
+    margin-top: 0.5em;
     padding-left: 0;
 }
-header ul li {
+header li {
     display: inline-block;
     margin: 0 1em;
 }
@@ -53,4 +54,39 @@ header ul li {
 ul {
     list-style-type: disc;
     padding-left: 2em;
+}
+
+@media (max-width: 600px) {
+    html {
+        background: none;
+    }
+    body {
+        box-shadow: none;
+        font-size: 14px;
+        line-height: 1.3em;
+        margin: 0;
+        padding: 1em;
+        width: 100%;
+    }
+    header ul {
+        font-size: 1em;
+    }
+    header li {
+        margin: 0 0.5em;
+    }
+    .non-mobile {
+        display: none;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h4 {
+        margin-top: 1em;
+    }
+    ul {
+        font-size: 0.85em;
+    }
+    .title-date {
+        display: block;
+    }
 }
